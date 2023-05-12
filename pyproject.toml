@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "haystack-meilisearch"
+version = "0.1.0"
+description = ""
+authors = ["luxcem <a@luxcem.fr>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django-haystack = "^3.2.1"
+meilisearch = "^0.26.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
